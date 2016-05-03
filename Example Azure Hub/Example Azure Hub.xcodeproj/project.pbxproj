@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE29423E1CD85C7A00DFF6AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29423D1CD85C7A00DFF6AC /* AppDelegate.swift */; };
+		CE2942401CD85C7A00DFF6AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29423F1CD85C7A00DFF6AC /* ViewController.swift */; };
+		CE2942431CD85C7A00DFF6AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2942411CD85C7A00DFF6AC /* Main.storyboard */; };
+		CE2942451CD85C7A00DFF6AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2942441CD85C7A00DFF6AC /* Assets.xcassets */; };
+		CE2942481CD85C7A00DFF6AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2942461CD85C7A00DFF6AC /* LaunchScreen.storyboard */; };
+		CE2942531CD85C7A00DFF6AC /* Example_Azure_HubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2942521CD85C7A00DFF6AC /* Example_Azure_HubTests.swift */; };
+		CE29425E1CD85C7B00DFF6AC /* Example_Azure_HubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29425D1CD85C7B00DFF6AC /* Example_Azure_HubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE29424F1CD85C7A00DFF6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2942321CD85C7A00DFF6AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2942391CD85C7A00DFF6AC;
+			remoteInfo = "Example Azure Hub";
+		};
+		CE29425A1CD85C7B00DFF6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2942321CD85C7A00DFF6AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2942391CD85C7A00DFF6AC;
+			remoteInfo = "Example Azure Hub";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE29423A1CD85C7A00DFF6AC /* Example Azure Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example Azure Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE29423D1CD85C7A00DFF6AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE29423F1CD85C7A00DFF6AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE2942421CD85C7A00DFF6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE2942441CD85C7A00DFF6AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2942471CD85C7A00DFF6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE2942491CD85C7A00DFF6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE29424E1CD85C7A00DFF6AC /* Example Azure HubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Example Azure HubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2942521CD85C7A00DFF6AC /* Example_Azure_HubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Azure_HubTests.swift; sourceTree = "<group>"; };
+		CE2942541CD85C7A00DFF6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2942591CD85C7B00DFF6AC /* Example Azure HubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Example Azure HubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE29425D1CD85C7B00DFF6AC /* Example_Azure_HubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Azure_HubUITests.swift; sourceTree = "<group>"; };
+		CE29425F1CD85C7B00DFF6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2942371CD85C7A00DFF6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE29424B1CD85C7A00DFF6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2942561CD85C7A00DFF6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2942311CD85C7A00DFF6AC = {
+			isa = PBXGroup;
+			children = (
+				CE29423C1CD85C7A00DFF6AC /* Example Azure Hub */,
+				CE2942511CD85C7A00DFF6AC /* Example Azure HubTests */,
+				CE29425C1CD85C7B00DFF6AC /* Example Azure HubUITests */,
+				CE29423B1CD85C7A00DFF6AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE29423B1CD85C7A00DFF6AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE29423A1CD85C7A00DFF6AC /* Example Azure Hub.app */,
+				CE29424E1CD85C7A00DFF6AC /* Example Azure HubTests.xctest */,
+				CE2942591CD85C7B00DFF6AC /* Example Azure HubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE29423C1CD85C7A00DFF6AC /* Example Azure Hub */ = {
+			isa = PBXGroup;
+			children = (
+				CE29423D1CD85C7A00DFF6AC /* AppDelegate.swift */,
+				CE29423F1CD85C7A00DFF6AC /* ViewController.swift */,
+				CE2942411CD85C7A00DFF6AC /* Main.storyboard */,
+				CE2942441CD85C7A00DFF6AC /* Assets.xcassets */,
+				CE2942461CD85C7A00DFF6AC /* LaunchScreen.storyboard */,
+				CE2942491CD85C7A00DFF6AC /* Info.plist */,
+			);
+			path = "Example Azure Hub";
+			sourceTree = "<group>";
+		};
+		CE2942511CD85C7A00DFF6AC /* Example Azure HubTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2942521CD85C7A00DFF6AC /* Example_Azure_HubTests.swift */,
+				CE2942541CD85C7A00DFF6AC /* Info.plist */,
+			);
+			path = "Example Azure HubTests";
+			sourceTree = "<group>";
+		};
+		CE29425C1CD85C7B00DFF6AC /* Example Azure HubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE29425D1CD85C7B00DFF6AC /* Example_Azure_HubUITests.swift */,
+				CE29425F1CD85C7B00DFF6AC /* Info.plist */,
+			);
+			path = "Example Azure HubUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2942391CD85C7A00DFF6AC /* Example Azure Hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2942621CD85C7B00DFF6AC /* Build configuration list for PBXNativeTarget "Example Azure Hub" */;
+			buildPhases = (
+				CE2942361CD85C7A00DFF6AC /* Sources */,
+				CE2942371CD85C7A00DFF6AC /* Frameworks */,
+				CE2942381CD85C7A00DFF6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Example Azure Hub";
+			productName = "Example Azure Hub";
+			productReference = CE29423A1CD85C7A00DFF6AC /* Example Azure Hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE29424D1CD85C7A00DFF6AC /* Example Azure HubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2942651CD85C7B00DFF6AC /* Build configuration list for PBXNativeTarget "Example Azure HubTests" */;
+			buildPhases = (
+				CE29424A1CD85C7A00DFF6AC /* Sources */,
+				CE29424B1CD85C7A00DFF6AC /* Frameworks */,
+				CE29424C1CD85C7A00DFF6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2942501CD85C7A00DFF6AC /* PBXTargetDependency */,
+			);
+			name = "Example Azure HubTests";
+			productName = "Example Azure HubTests";
+			productReference = CE29424E1CD85C7A00DFF6AC /* Example Azure HubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE2942581CD85C7A00DFF6AC /* Example Azure HubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2942681CD85C7B00DFF6AC /* Build configuration list for PBXNativeTarget "Example Azure HubUITests" */;
+			buildPhases = (
+				CE2942551CD85C7A00DFF6AC /* Sources */,
+				CE2942561CD85C7A00DFF6AC /* Frameworks */,
+				CE2942571CD85C7A00DFF6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE29425B1CD85C7B00DFF6AC /* PBXTargetDependency */,
+			);
+			name = "Example Azure HubUITests";
+			productName = "Example Azure HubUITests";
+			productReference = CE2942591CD85C7B00DFF6AC /* Example Azure HubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2942321CD85C7A00DFF6AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cubix;
+				TargetAttributes = {
+					CE2942391CD85C7A00DFF6AC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CE29424D1CD85C7A00DFF6AC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CE2942391CD85C7A00DFF6AC;
+					};
+					CE2942581CD85C7A00DFF6AC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CE2942391CD85C7A00DFF6AC;
+					};
+				};
+			};
+			buildConfigurationList = CE2942351CD85C7A00DFF6AC /* Build configuration list for PBXProject "Example Azure Hub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2942311CD85C7A00DFF6AC;
+			productRefGroup = CE29423B1CD85C7A00DFF6AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2942391CD85C7A00DFF6AC /* Example Azure Hub */,
+				CE29424D1CD85C7A00DFF6AC /* Example Azure HubTests */,
+				CE2942581CD85C7A00DFF6AC /* Example Azure HubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2942381CD85C7A00DFF6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2942481CD85C7A00DFF6AC /* LaunchScreen.storyboard in Resources */,
+				CE2942451CD85C7A00DFF6AC /* Assets.xcassets in Resources */,
+				CE2942431CD85C7A00DFF6AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE29424C1CD85C7A00DFF6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2942571CD85C7A00DFF6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2942361CD85C7A00DFF6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2942401CD85C7A00DFF6AC /* ViewController.swift in Sources */,
+				CE29423E1CD85C7A00DFF6AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE29424A1CD85C7A00DFF6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2942531CD85C7A00DFF6AC /* Example_Azure_HubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2942551CD85C7A00DFF6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE29425E1CD85C7B00DFF6AC /* Example_Azure_HubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2942501CD85C7A00DFF6AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2942391CD85C7A00DFF6AC /* Example Azure Hub */;
+			targetProxy = CE29424F1CD85C7A00DFF6AC /* PBXContainerItemProxy */;
+		};
+		CE29425B1CD85C7B00DFF6AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2942391CD85C7A00DFF6AC /* Example Azure Hub */;
+			targetProxy = CE29425A1CD85C7B00DFF6AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE2942411CD85C7A00DFF6AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2942421CD85C7A00DFF6AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE2942461CD85C7A00DFF6AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2942471CD85C7A00DFF6AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2942601CD85C7B00DFF6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE2942611CD85C7B00DFF6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2942631CD85C7B00DFF6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Example Azure Hub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubix.app.Example-Azure-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE2942641CD85C7B00DFF6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Example Azure Hub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubix.app.Example-Azure-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE2942661CD85C7B00DFF6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Example Azure HubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubix.app.Example-Azure-HubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example Azure Hub.app/Example Azure Hub";
+			};
+			name = Debug;
+		};
+		CE2942671CD85C7B00DFF6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Example Azure HubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubix.app.Example-Azure-HubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example Azure Hub.app/Example Azure Hub";
+			};
+			name = Release;
+		};
+		CE2942691CD85C7B00DFF6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Example Azure HubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubix.app.Example-Azure-HubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Example Azure Hub";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CE29426A1CD85C7B00DFF6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Example Azure HubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubix.app.Example-Azure-HubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Example Azure Hub";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2942351CD85C7A00DFF6AC /* Build configuration list for PBXProject "Example Azure Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2942601CD85C7B00DFF6AC /* Debug */,
+				CE2942611CD85C7B00DFF6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2942621CD85C7B00DFF6AC /* Build configuration list for PBXNativeTarget "Example Azure Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2942631CD85C7B00DFF6AC /* Debug */,
+				CE2942641CD85C7B00DFF6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE2942651CD85C7B00DFF6AC /* Build configuration list for PBXNativeTarget "Example Azure HubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2942661CD85C7B00DFF6AC /* Debug */,
+				CE2942671CD85C7B00DFF6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE2942681CD85C7B00DFF6AC /* Build configuration list for PBXNativeTarget "Example Azure HubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2942691CD85C7B00DFF6AC /* Debug */,
+				CE29426A1CD85C7B00DFF6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2942321CD85C7A00DFF6AC /* Project object */;
+}
